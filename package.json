@@ -1,0 +1,17 @@
+{
+  "name": "playwright-ts-automation-framework",
+  "version": "1.0.0",
+  "description": "E2E test automation framework with Playwright and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Deepti Nayak",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "dotenv": "^17.4.2"
+  }
+}
