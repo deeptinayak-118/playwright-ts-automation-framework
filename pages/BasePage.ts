@@ -29,7 +29,7 @@ export abstract class BasePage {
     await expect(this.page).toHaveURL(new RegExp(expected));
   }
 
-  async assertVisible(locator: Locator, timeout = 10_000): Promise<void> {
+  async assertVisible(locator: Locator, timeout = 10000): Promise<void> {
     await expect(locator).toBeVisible({ timeout });
   }
 
@@ -47,13 +47,6 @@ export abstract class BasePage {
 
   async selectByLabel(locator: Locator, label: string): Promise<void> {
     await locator.selectOption({ label });
-  }
-
-  async captureScreenshot(name: string): Promise<Buffer> {
-    return this.page.screenshot({
-      path: 	est-results/screenshots/+name+-+Date.now()+.png,
-      fullPage: true,
-    });
   }
 
   async reload(): Promise<void> {

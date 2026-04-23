@@ -12,9 +12,9 @@ export class LoginPage extends BasePage {
 
   constructor(page: Page) {
     super(page);
-    this.emailInput = page.getByPlaceholder('Email Address');
-    this.passwordInput = page.getByPlaceholder('Password');
-    this.loginButton = page.getByRole('button', { name: 'Login' });
+    this.emailInput = page.locator('[data-qa="login-email"]');
+    this.passwordInput = page.locator('[data-qa="login-password"]');
+    this.loginButton = page.locator('[data-qa="login-button"]');
     this.errorMessage = page.getByText(/Your email or password is incorrect/i);
     this.signupLink = page.getByRole('link', { name: /signup/i });
   }
