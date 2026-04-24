@@ -1,4 +1,6 @@
-# Playwright TypeScript Automation Framework
+﻿# Playwright TypeScript Automation Framework
+
+[![Playwright Tests](https://github.com/deeptinayak-118/playwright-ts-automation-framework/actions/workflows/playwright.yml/badge.svg)](https://github.com/deeptinayak-118/playwright-ts-automation-framework/actions/workflows/playwright.yml)
 
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?logo=playwright&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
@@ -10,14 +12,14 @@ A production-grade end-to-end test automation framework built with Playwright an
 
 ## Highlights
 
-- **Page Object Model** — clean separation of test logic and page interactions
-- **UI + API hybrid testing** — APIRequestContext with JWT Bearer auth
-- **Custom fixtures** — authenticated state, test data injection, shared setup
-- **Cross-browser** — Chromium, Firefox, WebKit
-- **Parallel execution** — tests run in parallel with isolated contexts
-- **CI/CD** — GitHub Actions pipeline with HTML report artifacts
-- **Smart selectors** — getByRole, getByLabel, data-testid — no brittle XPath
-- **Environment-aware config** — .env-driven, works across dev/staging/prod
+- **Page Object Model** â€” clean separation of test logic and page interactions
+- **UI + API hybrid testing** â€” APIRequestContext with JWT Bearer auth
+- **Custom fixtures** â€” authenticated state, test data injection, shared setup
+- **Cross-browser** â€” Chromium, Firefox, WebKit
+- **Parallel execution** â€” tests run in parallel with isolated contexts
+- **CI/CD** â€” GitHub Actions pipeline with HTML report artifacts
+- **Smart selectors** â€” getByRole, getByLabel, data-testid â€” no brittle XPath
+- **Environment-aware config** â€” .env-driven, works across dev/staging/prod
 
 ---
 
@@ -82,14 +84,14 @@ await loginPage.login('user@example.com', 'password');
 
 ### Selector Strategy
 
-1. `page.getByRole()` — accessibility-first
-2. `page.getByLabel()` — form elements
-3. `page.getByPlaceholder()` — input fields
-4. `page.getByTestId()` — stable data-testid attributes
-5. CSS selectors — last resort
+1. `page.getByRole()` â€” accessibility-first
+2. `page.getByLabel()` â€” form elements
+3. `page.getByPlaceholder()` â€” input fields
+4. `page.getByTestId()` â€” stable data-testid attributes
+5. CSS selectors â€” last resort
 
 ---
 
 ## Author
 
-**Deepti Nayak** — QA Automation Engineer
+**Deepti Nayak** â€” QA Automation Engineer
